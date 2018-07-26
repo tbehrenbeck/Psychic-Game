@@ -1,0 +1,12 @@
+#game  {
+    background-color: black;
+    color: white;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    border: 7px solid maroon;
+}
+
+body {
+    background-color: darkgray;
+}
