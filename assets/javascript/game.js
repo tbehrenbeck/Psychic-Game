@@ -35,7 +35,7 @@ document.onkeyup = function(event) {
 		console.log(computersLetter);		
 	}
 
-	var html = "<p><h1>Guessing Game</h1></p>" + "<p><h4>Guess what letter I am thinking of...</h4></p>" + "<p><h4>Wins: " + wins + "</h4></p>" + "<p><h4>Losses: " + losses + "</h4></p>" + "<p><h4>Guesses Left: " + guessesLeft + "</h4></p>" + "<p><h4>Your guesses so far: " + guessesSoFar + "</h4></p>";
+	var html = "<p><h4>press any letter to start</h4></p>" + "<p><h4>Wins: " + wins + "</h4></p>" + "<p><h4>Losses: " + losses + "</h4></p>" + "<p><h4>Guesses Left: " + guessesLeft + "</h4></p>" + "<p><h4>Your guesses so far: " + guessesSoFar + "</h4></p>";
 	document.querySelector("#game").innerHTML = html;
 
 }
