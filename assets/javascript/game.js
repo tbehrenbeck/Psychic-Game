@@ -18,8 +18,8 @@ document.onkeyup = function(event) {
 		guessesSoFar.push(userGuess);
 		guessesLeft--;
 	} 
-	
-	if (computersLetter == userGuess) {
+
+	if (computersLetter === userGuess) {
 		wins++;
 		console.log("You won!");
 		guessesLeft = 10;
